@@ -39,8 +39,7 @@ Vous verrez un menu avec les options suivantes :
     Delete Snapshot : Permet de supprimer un snapshot existant d'une VM en fournissant l'ID de la VM et le nom du snapshot.
     Exit : Quitte le script.
 
-Exemple de sortie
-Création de snapshot
+Exemple de sortie **Création de snapshot**
 ```bash
 Proxmox VM Snapshot Management
 1. Create Snapshot
@@ -52,7 +51,7 @@ Enter VM ID: 112
 Enter Snapshot Name: archlinux2024_snapshot
 Snapshot 'archlinux2024_snapshot' for VM ID '112' created successfully.
 ```
-Restauration de snapshot
+Exemple de sortie **Restauration de snapshot**
 ```bash
 Proxmox VM Snapshot Management
 1. Create Snapshot
@@ -67,7 +66,7 @@ Enter Snapshot Name to restore: archlinux2024_snapshot
 Are you sure you want to restore snapshot 'archlinux2024_snapshot' for VM ID '112'? This will overwrite the current state of the VM. (yes/no): yes
 Snapshot 'archlinux2024_snapshot' for VM ID '112' restored successfully.
 ```
-Suppression de snapshot
+Exemple de sortie **Suppression de snapshot**
 ```bash
 Proxmox VM Snapshot Management
 1. Create Snapshot
